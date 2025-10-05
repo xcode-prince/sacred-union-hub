@@ -45,7 +45,7 @@ const Footer = () => {
             onClick={copyLink}
             size="lg"
             variant="outline"
-            className="border-primary/30 hover:bg-primary/10 transition-smooth"
+            className="bg-transparent border-primary/30 hover:bg-primary/10 transition-smooth"
           >
             Salin Link Undangan
           </Button>
@@ -66,7 +66,7 @@ const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-secondary-foreground/20">
           <p className="text-sm opacity-60">
-            Made with <Heart className="inline w-4 h-4 mx-1" fill="currentColor" /> by Lovable
+            Made with <Heart className="inline w-4 h-4 mx-1" fill="currentColor" /> by Koko Pangeran
           </p>
         </div>
       </div>

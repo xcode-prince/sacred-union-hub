@@ -13,7 +13,7 @@ const MusicPlayer = ({ isPlaying }: MusicPlayerProps) => {
 
   // YouTube audio URL example - replace with actual audio file
   // For production, you should upload an actual audio file to your assets or use a streaming service
-  const audioUrl = ""; // Add your audio file URL here
+  const audioUrl = "https://youtu.be/LVsFbdAZLcg?si=0cFjLljK3QG6z_fi"; // Add your audio file URL here
 
   useEffect(() => {
     if (isPlaying && audioRef.current && audioUrl) {

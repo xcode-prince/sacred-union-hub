@@ -46,7 +46,7 @@ const CountdownSection = () => {
             { label: "Detik", value: timeLeft.seconds },
           ].map((item) => (
             <Card key={item.label} className="p-6 md:p-8 shadow-soft bg-card">
-              <p className="text-4xl md:text-6xl font-serif font-bold gradient-primary bg-clip-text text-transparent mb-2">
+              <p className="text-4xl md:text-6xl font-serif font-bold gradient-primary bg-clip-text text-black mb-2">
                 {item.value.toString().padStart(2, "0")}
               </p>
               <p className="text-muted-foreground text-sm md:text-base uppercase tracking-wider">

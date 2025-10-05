@@ -5,18 +5,18 @@ import coupleImg2 from "@/assets/couple-2.jpg";
 
 const CoupleSection = () => {
   const bride = {
-    name: "Nama Lengkap Pengantin Wanita",
-    nickname: "Pengantin Wanita",
-    parents: "Putri dari Bapak [Nama Ayah] & Ibu [Nama Ibu]",
-    instagram: "@pengantinwanita",
+    name: "Rossa Wijayanti",
+    nickname: "Rossa",
+    parents: "Putri dari Bapak [Samsul] & Ibu [Warni]",
+    instagram: "@rossa.wijayanti21",
     image: coupleImg1,
   };
 
   const groom = {
-    name: "Nama Lengkap Pengantin Pria",
-    nickname: "Pengantin Pria",
-    parents: "Putra dari Bapak [Nama Ayah] & Ibu [Nama Ibu]",
-    instagram: "@pengantinpria",
+    name: "Pangeran Dewanata",
+    nickname: "Pangeran",
+    parents: "Putra dari Bapak [Rachman] & Ibu [Mayga]",
+    instagram: "@kokopangeran_",
     image: coupleImg2,
   };
 

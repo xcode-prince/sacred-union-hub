@@ -14,7 +14,7 @@ const HeroSection = ({ onOpen }: HeroSectionProps) => {
     >
       <div className="absolute inset-0 gradient-overlay" />
       
-      <div className="relative z-10 text-center text-white px-4 animate-fade-in">
+      <div className="relative z-10 text-center text-black px-4 animate-fade-in">
         <Heart className="w-16 h-16 mx-auto mb-6 animate-pulse" fill="currentColor" />
         
         <h1 className="text-5xl md:text-7xl font-serif mb-4 tracking-wide">
@@ -27,15 +27,15 @@ const HeroSection = ({ onOpen }: HeroSectionProps) => {
           <div className="h-px w-16 bg-white/50" />
         </div>
         
-        <h2 className="text-4xl md:text-6xl font-serif mb-8 gradient-primary bg-clip-text text-transparent">
-          Bride & Groom
+        <h2 className="text-4xl md:text-6xl font-serif mb-8 gradient-primary bg-clip-text text-red">
+          Pangeran & Istrinya
         </h2>
         
         <p className="text-lg md:text-xl mb-4 font-light">
           Kepada Yth. Bapak/Ibu/Saudara/i
         </p>
         <p className="text-2xl md:text-3xl font-serif mb-12">
-          [Nama Tamu]
+          [Pandu Haryanto & Partner]
         </p>
         
         <Button
